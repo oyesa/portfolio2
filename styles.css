@@ -7,6 +7,7 @@ font-family: 'Roboto', sans-serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
 }
 
 .header{
@@ -15,6 +16,7 @@ font-family: 'Roboto', sans-serif; */
   background: #020412;
   color: #fff;
   position: relative;
+  padding: 0 8.5%;
 }
 
 /* navbar */
@@ -24,6 +26,7 @@ nav{
   width: 100%;
   align-items: center;
   flex-wrap: wrap;
+  padding: 30px 0 10px;
 }
 
 .logo{
@@ -31,10 +34,15 @@ nav{
   cursor: pointer;
 }
 
+.menu-icon{
+  width: 35px;
+  cursor: pointer;
+}
+
 nav ul{
   flex: 1;
   text-align: right;
-  padding-right: 45px;
+  padding-right: 40px;
   font-family: 'Outfit', sans-serif;
   font-weight: 600;
 }
@@ -47,11 +55,75 @@ nav ul li{
 
 nav ul li a{
   color: #fff;
-  text-decoration: none;
+  text-decoration: none !important;
   letter-spacing: 1px;
   font-size: 17px;
 }
 
 nav ul li a:hover{
   color: #fff724;
+}
+
+
+
+/* landing */
+
+.text-box{
+  margin-top: 15%;
+  font-size: 17px;
+  letter-spacing: 1px;
+  padding-left: 70px;
+  line-height: 10px;
+}
+
+.text-box h1{
+  font-size: 75px;
+  line-height: 90px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+}
+
+.text-box p{
+  line-height: 30px;
+  font-size: 19px;
+}
+
+.text-box a{
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 6px;
+  border: 2px solid #fff724;
+  color: #fff724;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.text-box .butt{
+  background: #fff724;
+  color: #000;
+  font-weight: 600;
+}
+
+.user-img{
+  width: 540px;
+  position: absolute;
+  right: 13%;
+  bottom: 0;
+}
+
+.auto-input{
+  color: #fff724;
+  font-weight: 900;
+}
+
+
+/* about */
+
+#about{
+  padding: 80px 0;
+  color: #020412;
+}
+
+.row{
+  display: flex;
 }
