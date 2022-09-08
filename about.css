@@ -108,6 +108,11 @@ h1{
   text-align: justify;
   margin-bottom: 40px;
 }
+
+.skills button a{
+  text-decoration: none;
+  color: #fff724;
+}
 .skills button{
   font-size: 19px;
   font-family: 'Outfit', sans-serif;
@@ -118,11 +123,10 @@ h1{
   padding: 8px;
   width: 200px;
   border: 2px solid #fff724;
-  color: #fff724;
   background: #000;
   cursor: pointer;
 }
-.skills button:hover{
+.skills button a:hover{
   transition: 1s;
   background-color: #fff724;
   color: #000;

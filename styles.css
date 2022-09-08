@@ -116,6 +116,19 @@ nav ul li a:hover{
   font-weight: 900;
 }
 
+.icons{
+  margin-right: 45%;
+  margin-left: 4%;
+  padding-top: 2%;
+}
+
+.icons .fa {
+  margin: 0 13px;
+  padding: 18px 0;
+  cursor: pointer;
+  color: #fff724;
+  text-decoration: none;
+}
 
 /* action-call */
 
