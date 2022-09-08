@@ -66,3 +66,21 @@ nav ul li a:hover{
 
 
 /* Portfolio */
+
+#portfolio{
+  margin-top: 2%;
+}
+
+.sub-t{
+  width:10%; 
+  background-color: #fff724; 
+  height: 2px; 
+  margin-left:45% !important; 
+  margin-right:45% !important; 
+  opacity: 1;
+}
+.sub-title{
+  text-align: center;
+  color: #fff724;
+  font-weight: 800 !important;
+}
