@@ -7,7 +7,7 @@ font-family: 'Roboto', sans-serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 .header{
@@ -75,6 +75,7 @@ body{
   justify-content: center;
   background-color: #f1f1f1;
 }
+
 .about{
   background: url(images/profpic1.jpeg) no-repeat left;
   background-size: 55%;
@@ -82,10 +83,15 @@ body{
   overflow: hidden;
   padding: 100px 0;
 }
+
+h1{
+  color: #fff724;
+  font-weight: 800 !important;
+}
 .inner-section{
   width: 55%;
   float: right;
-  background-color: #fff724;
+  background-color: #000;
   padding: 140px;
   box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
 }
@@ -95,28 +101,31 @@ body{
   font-weight: 900;
 }
 .text{
-  font-size: 13px;
-  color: #545454;
+  font-size: 19px;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
   line-height: 30px;
   text-align: justify;
   margin-bottom: 40px;
 }
 .skills button{
-  font-size: 22px;
+  font-size: 19px;
+  font-family: 'Outfit', sans-serif;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   border: none;
   border-radius: 20px;
   padding: 8px;
   width: 200px;
-  background-color: #00999c;
-  color: white;
+  border: 2px solid #fff724;
+  color: #fff724;
+  background: #000;
   cursor: pointer;
 }
 .skills button:hover{
   transition: 1s;
-  background-color: #ecf5f5;
-  color: #00999c;
+  background-color: #fff724;
+  color: #000;
 }
 @media screen and (max-width:1200px){
   .inner-section{
