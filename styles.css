@@ -187,7 +187,7 @@ h2{
   padding: 40px;
   font-size: 13px;
   font-weight: 400;
-  border-right: 10px;
+  border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
 }
 
