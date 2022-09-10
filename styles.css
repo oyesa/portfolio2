@@ -117,10 +117,18 @@ nav ul li a:hover{
   font-weight: 900;
 }
 
-.icons{
+/* .icons{
   margin-right: 45%;
   margin-left: 4%;
   padding-top: 2%;
+} */
+
+.icons{
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+  padding-right: 3%;
+  margin-top: -11.5%;
 }
 
 .icons .fa {
