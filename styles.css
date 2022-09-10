@@ -182,7 +182,13 @@ h2{
   color: #fff;
 }
 
-
+.services-list div{
+  background: #262626;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 400;
+  border-right: 10px;
+}
 /* contact section */
 
 #contact{
