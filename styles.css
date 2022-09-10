@@ -61,7 +61,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: #fff724;
+  color: #6246ea;
 }
 
 
@@ -69,15 +69,15 @@ nav ul li a:hover{
 /* landing */
 
 .text-box{
-  margin-top: 15%;
+  margin-top: 5%;
   font-size: 17px;
   letter-spacing: 1px;
-  padding-left: 70px;
+  padding-left: 65px;
   line-height: 10px;
 }
 
 .text-box h1{
-  font-size: 85px;
+  font-size: 66px;
   line-height: 90px;
   font-family: 'Outfit', sans-serif;
   font-weight: 800;
@@ -86,33 +86,34 @@ nav ul li a:hover{
 .text-box p{
   line-height: 31px;
   font-size: 21px;
+  font-weight: 500;
 }
 
 .text-box a{
   margin-top: 17px;
   display: inline-block;
   border-radius: 6px;
-  border: 2px solid #fff724;
-  color: #fff724;
+  border: 2px solid #6246ea;
+  color: #6246ea;
   padding: 10px 30px;
   text-decoration: none;
 }
 
 .text-box .butt{
-  background: #fff724;
+  background: #6246ea;
   color: #000;
   font-weight: 600;
 }
 
 .user-img{
-  width: 540px;
+  width: 980px;
   position: absolute;
-  right: 13%;
+  right: 1%;
   bottom: 0;
 }
 
 .auto-input{
-  color: #fff724;
+  color: #6246ea;
   font-weight: 900;
 }
 
@@ -126,7 +127,7 @@ nav ul li a:hover{
   margin: 0 13px;
   padding: 18px 0;
   cursor: pointer;
-  color: #fff724;
+  color: #6246ea;
   text-decoration: none;
 }
 
@@ -151,7 +152,7 @@ h2{
 }
 
 .sub-title{
-  color: #fff724;
+  color: #6246ea;
   font-weight: 800 !important;
   margin-top: 55%;
 }
@@ -170,7 +171,7 @@ h2{
 }
 
 .contact-left p i{
-  color: #fff724;
+  color: #6246ea;
   margin-right: 10px;
   font-size: 20px;
 }
@@ -190,13 +191,13 @@ h2{
 }
 
 .social-icons a:hover{
-  color: #fff724;
+  color: #6246ea;
   transform: translateY(-5px);
 }
 
 .btn.btn2{
   display: inline-block;
-  background: #fff724;
+  background: #6246ea;
   font-size: 17px;
   font-weight: 600;
 }
@@ -230,7 +231,7 @@ form .btn2{
 /* copyright */
 
 .copyright{
-  color: #fff;
+  color: #6246ea;
   width: 100%;
   text-align: center;
   padding: 20px 0;
@@ -241,5 +242,19 @@ form .btn2{
 }
 
 .copyright i{
-  color: #fff724;
+  color: #6246ea;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 600px){
+  .text-box{
+    margin-top: 100%;
+    font-size: 16px;
+  }
+
+  .text-box h1{
+    font-size: 16px;
+  }
 }
