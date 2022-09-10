@@ -225,3 +225,21 @@ form .btn2{
   margin-top: 20px;
   cursor: pointer;
 }
+
+
+/* copyright */
+
+.copyright{
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background: #262626;
+  margin-top: 30px;
+  font-weight: 400;
+  word-spacing: 5px;
+}
+
+.copyright i{
+  color: #fff724;
+}
