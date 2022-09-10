@@ -175,7 +175,8 @@ h2{
 }
 
 .social-icons{
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .social-icons a{
@@ -190,4 +191,32 @@ h2{
 .social-icons a:hover{
   color: #fff724;
   transform: translateY(-5px);
+}
+
+.btn.btn2{
+  display: inline-block;
+  background: #fff724;
+}
+
+.contact-right form{
+  width: 100%;
+}
+
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 6px;
+}
+
+form .btn2{
+  padding: 14px 60px;
+  font-size: 17px;
+  margin-top: 20px;
+  cursor: pointer;
 }
