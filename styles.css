@@ -243,6 +243,27 @@ h2{
   cursor: pointer;
 }
 
+.skills .skill .head .left{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skills .skill .item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.6rem;
+  background: #ababab;
+  margin-bottom: 0.3rem;
+  transition: transform 0.5s;
+}
+
+.skills .skill .item:hover{
+  background: #fff;
+}
+
 
 
 /* contact section */
