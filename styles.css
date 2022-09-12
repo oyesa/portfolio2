@@ -217,6 +217,34 @@ h2{
 }
 
 
+
+/* skills section */
+
+#skills{
+  background: #020412;
+  color: #fff;
+}
+
+.skills .container{
+  width: 50%;
+}
+
+.skills .skill{
+  margin-bottom: 1rem;
+}
+
+.skills .skill .head{
+  background: #6246ea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 1.6rem;
+  cursor: pointer;
+}
+
+
+
 /* contact section */
 
 #contact{
