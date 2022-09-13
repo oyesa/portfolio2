@@ -238,6 +238,7 @@ h2{
   color: #6246ea;
   font-weight: 800 !important;
   text-align: center;
+  font-family: 'Outfit', sans-serif;
 }
 .skills .container{
   width: 50%;
@@ -327,7 +328,7 @@ h2{
 
 /* contact section */
 
-#contact{
+/* #contact{
   background: #020412;
 }
 
@@ -405,12 +406,12 @@ form .btn2{
   font-weight: 600;
   margin-top: 20px;
   cursor: pointer;
-}
+} */
 
 
 /* copyright */
 
-.copyright{
+/* .copyright{
   color: #6246ea;
   width: 100%;
   text-align: center;
@@ -423,7 +424,7 @@ form .btn2{
 
 .copyright i{
   color: #6246ea;
-}
+} */
 
 
 /* media query */
