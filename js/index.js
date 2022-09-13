@@ -9,7 +9,6 @@ var typed = new Typed(".auto-input", {
 
 
 // show/hide skill items
-
 const skillItems = document.querySelectorAll('.skills .skill');
 
 skillItems.forEach(skill => {
