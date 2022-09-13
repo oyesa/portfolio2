@@ -46,6 +46,10 @@ h3{
 #diamond{
   font-size: 19px;
 }
+
+.header a{
+  text-decoration: none;
+}
 /* .menu-icon{
   width: 35px;
   cursor: pointer;
@@ -83,10 +87,10 @@ nav ul li a:hover{
 /* landing */
 
 .text-box{
-  margin-top: 15%;
+  margin-top: 10%;
   font-size: 17px;
   letter-spacing: 1px;
-  padding-left: 65px;
+  padding-left: 60px;
   line-height: 10px;
 }
 
@@ -120,9 +124,9 @@ nav ul li a:hover{
 }
 
 .user-img{
-  width: 980px;
+  width: 999px;
   position: absolute;
-  right: 1%;
+  right: 0.2%;
   bottom: 0;
 }
 
@@ -130,12 +134,6 @@ nav ul li a:hover{
   color: #6246ea;
   font-weight: 900;
 }
-
-/* .icons{
-  margin-right: 45%;
-  margin-left: 4%;
-  padding-top: 2%;
-} */
 
 .icons{
   display: grid;
@@ -153,23 +151,34 @@ nav ul li a:hover{
   text-decoration: none;
 }
 
-/* Services */
+#fa{
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
 
+
+/* Services */
 #services{
   background: #020412;
   padding: 30px 0;
+}
+
+#services .container{
+  margin-bottom: 10%;
 }
 
 .services-list{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .sub-t{
   color: #6246ea;
   font-weight: 800 !important;
+  text-align: center;
 }
 
 h2{
@@ -225,12 +234,17 @@ h2{
   color: #fff;
 }
 
+#skills h1{
+  color: #6246ea;
+  font-weight: 800 !important;
+  text-align: center;
+}
 .skills .container{
   width: 50%;
 }
 
-.skills .skill{
-  margin-bottom: 1rem;
+.skills .container .skill{
+  margin-bottom: 0.5rem;
 }
 
 .skills .skill .head{
@@ -239,7 +253,7 @@ h2{
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  padding: 1.6rem;
+  padding: 1rem;
   cursor: pointer;
 }
 
@@ -248,6 +262,16 @@ h2{
   align-items: center;
   gap: 1rem;
 }
+
+.skills .skill .items{
+  display: none;
+}
+
+/* for JS show/hide items */
+.skills .container .skill .items.show-items{
+  display: block;
+}
+
 
 .skills .skill .item{
   display: flex;
@@ -290,6 +314,15 @@ h2{
 .skills .item:nth-child(3) .progress-bar .progress{
   width: 70%;
 }
+
+.skills .item:nth-child(4) .progress-bar .progress{
+  width: 70%;
+}
+
+.skills .item:nth-child(5) .progress-bar .progress{
+  width: 70%;
+}
+
 
 
 /* contact section */

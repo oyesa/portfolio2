@@ -23,7 +23,7 @@
     <!-- navbar -->
     <div class="header">
       <nav>
-        <a href="#"><h3>My Portfolio <i class="fa fa-diamond" id="diamond"></i></h3></a>
+        <a href="index.html"><h3>My Portfolio <i class="fa fa-diamond" id="diamond"></i></h3></a>
         <!-- <img class="logo" src="images/logo3.1.png" alt="logo image"> -->
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
@@ -92,12 +92,12 @@
     <div class="skill">
       <div class="head">
         <div class="left">
-          <i class="fa fa-plane"></i>
+          <i class="fa fa-crop" id="fa"></i>
             <h4>UI/UX Design</h4>
         </div>
-        <i class="fa fa-chevron-down"></i>
+        <i class="fa fa-chevron-down" id="show-btn"></i>
       </div>
-      <div class="items">
+      <div class="items" id="items">
         <div class="item">
           <h5>Figma</h5>
           <div class="progress-area">
@@ -125,7 +125,7 @@
     <div class="skill">
       <div class="head">
         <div class="left">
-          <i class="fa fa-code"></i>
+          <i class="fa fa-code" id="fa"></i>
             <h4>Frontend Development</h4>
         </div>
         <i class="fa fa-chevron-down"></i>
@@ -168,7 +168,7 @@
             <div class="progress-bar">
               <div class="progress"></div>
             </div>
-            <h5>75%</h5>
+            <h5>70%</h5>
           </div>
         </div>
         <!-- END OF ITEM -->
@@ -189,7 +189,7 @@
   <div class="skill">
     <div class="head">
       <div class="left">
-        <i class="fa fa-server"></i>
+        <i class="fa fa-server" id="fa"></i>
           <h4>Backend Development</h4>
       </div>
       <i class="fa fa-chevron-down"></i>
@@ -273,6 +273,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 
     <script>
       var typed = new Typed(".auto-input", {

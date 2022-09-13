@@ -34,6 +34,21 @@ nav{
   cursor: pointer;
 }
 
+.header a{
+  text-decoration: none;
+}
+.header h3{
+  color: #6246ea;
+  font-weight: 800;
+  font-size: 21px;
+}
+
+#diamond{
+  font-size: 19px;
+  color: #6246ea;
+  text-decoration: none;
+}
+
 .menu-icon{
   width: 35px;
   cursor: pointer;
