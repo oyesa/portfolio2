@@ -169,7 +169,7 @@ nav ul li a:hover{
 }
 
 #services .container{
-  margin-bottom: 10%;
+  margin-bottom: 17%;
 }
 
 .services-list{
@@ -181,7 +181,7 @@ nav ul li a:hover{
 
 .sub-t{
   color: #6246ea;
-  font-size: 3.2rem;
+  font-size: 3.4rem;
   font-weight: 800 !important;
   text-align: center;
   padding-bottom: 5%;
@@ -240,6 +240,7 @@ h2{
 
 
 /* contact section */
+
 section.contact{
   background: url("images/contact2.jpg") no-repeat center center/cover;
   max-width: 100vw;
