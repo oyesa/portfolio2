@@ -202,14 +202,22 @@ h2{
   background: #262626;
   padding: 49px;
   border-radius: 10px;
+  text-align: center;
   transition: background 0.5s, transform 0.5s;
 }
 
 .services-list div i{
-  font-size: 40px;
+  font-size: 27px;
   margin-bottom: 10px;
   color: #fff;
+  background: #6246ea;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  align-items: center;
+  line-height: 44px;
 }
+
 
 .services-list div h2{
   font-size: 30px;
