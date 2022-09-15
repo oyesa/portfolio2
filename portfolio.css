@@ -10,6 +10,7 @@ font-family: 'Roboto', sans-serif; */
 	list-style: none;
 	text-decoration: none;
 	scroll-behavior: smooth;
+  background: #020412 !important;
 }
 
 :root{
@@ -96,18 +97,25 @@ nav ul li a:hover{
 /* Portfolio */
 
 #portfolio{
-  background: #020412 !important;
+  /* background: #020412 !important; */
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 4rem;
 }
 
 .portfolio-content{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(410px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
 	align-items: center;
-	gap: 5rem;
-	margin-top: 5rem;
+	gap: 4rem;
+	margin-top: 2rem;
 }
+
+.details h3, h6, a, i{
+  background: #12141c !important;
+  text-decoration: none;
+}
+
 
 .btn-right{
   text-align: right;
@@ -118,7 +126,7 @@ nav ul li a:hover{
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
-  background: var(--main-color);
+  background: var(--main-color) !important;
   color: #fff;
   transition: background 0.5s;
   }
@@ -133,11 +141,12 @@ nav ul li a:hover{
 	height: 350px;
 	width: 550px;
 	margin-bottom: 1.5rem;
+  box-shadow: 0 3px 10px rgba(107, 85, 124, 0.1);
 }
 
 .row{
 	padding: 55px;
-	background: #12141c;
+	background: #12141c !important;
 	transition: all .40s ease;
 }
 .main-row{
@@ -148,8 +157,8 @@ nav ul li a:hover{
 }
 
 .main-text h1{
-  font-size: 3rem;
-  font-weight: 800;
+  font-size: 2rem;
+  font-weight: 900;
   letter-spacing: 1px;
   margin-top: 5%;
 }
@@ -158,6 +167,7 @@ nav ul li a:hover{
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 1px;
+  background: #020412 !important;
 }
 .row h3{
 	font-size: 25px;
@@ -180,21 +190,4 @@ nav ul li a:hover{
 	cursor: pointer;
 }
 
-/* .heading-port{
-  font-size: 3.4rem;
-  font-weight: 800;
-  letter-spacing: 1px;
-  color: #6246ea;
-}
 
-.sub-heading{
-  color: #6246ea;
-  font-weight: 400 !important;
-  font-size: 21px;
-}
-
-.portfolio-header{
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-} */
