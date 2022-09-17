@@ -145,7 +145,7 @@ nav ul li a:hover{
 }
 
 .row{
-	padding: 55px;
+	padding: 30px;
 	background: #12141c !important;
 	transition: all .40s ease;
 }
@@ -154,6 +154,7 @@ nav ul li a:hover{
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 1rem;
+  background: #12141c !important;
 }
 
 .main-text h1{
@@ -169,15 +170,19 @@ nav ul li a:hover{
 	letter-spacing: 1px;
   background: #020412 !important;
 }
+
 .row h3{
 	font-size: 25px;
 	font-weight: 800;
   letter-spacing: 1px;
+  background: #12141c !important;
 }
+
 .row h6{
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 2px;
+  background: #12141c !important;
 }
 
 #fa{
