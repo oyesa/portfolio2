@@ -1,7 +1,7 @@
 
 // Typing intro landing page
 var typed = new Typed(".auto-input", {
-  strings: ["Oyesa Oluchina", "  A Web <br> Developer."],
+  strings: ["Oyesa Oluchina", "  A Frontend <br> Developer."],
   typeSpeed: 150,
   backSpeed: 100,
   loop: true
