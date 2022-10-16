@@ -75,9 +75,20 @@ nav ul li a{
   font-size: 17px;
 }
 
-nav ul li a:hover{
-  color: #6246ea;
+nav ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #6246ea;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
 }
+
+nav ul li:hover::after{
+  width: 100%;
+}
+
 
 
 
@@ -106,6 +117,26 @@ h1{
   font-weight: 800 !important;
   word-spacing: 3px;
 }
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
 .inner-section{
   width: 55%;
   float: right;

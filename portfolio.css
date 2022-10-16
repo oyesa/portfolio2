@@ -89,9 +89,20 @@ nav ul li a{
   font-size: 17px;
 }
 
-nav ul li a:hover{
-  color: #6246ea;
+nav ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #6246ea;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
 }
+
+nav ul li:hover::after{
+  width: 100%;
+}
+
 
 
 /* Portfolio */
