@@ -171,6 +171,10 @@ nav ul li:hover::after{
   text-decoration: none;
 }
 
+.contact-btn:hover {
+  background: #6246ea;
+  color: #fff;
+}
 
 /* Services */
 #services{
