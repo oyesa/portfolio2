@@ -69,7 +69,7 @@ nav ul li{
 }
 
 nav ul li a{
-  color: #fff;
+  color: #fff !important;
   text-decoration: none !important;
   letter-spacing: 1px;
   font-size: 17px;
